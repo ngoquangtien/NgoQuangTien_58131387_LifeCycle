@@ -1,0 +1,7 @@
+câu 4:các phương thức cồng đời được gọi khi ứng dụng đang chạy và người sử dụng bấm vào nút back sau đó mở lại ứng dụng là:
+	onPause() -> onStop() -> onDestroy -> onCreate() -> onStart() -> onResume()
+câu 5:các phương thức vòng đời được gọi khi ứng dụng đang chạy và người sử dụng bấm vào nút home và sau đó mở lại ứng dụng là:
+	onPause() -> onStop() -> onRestart() -> onStart() -> onResume()
+câu 6: Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng khi chạy lại ứng dụng thì cần 
+phải thực hiện trong phương thức vòng đời onPause(). Vì phương thức này dùng để ghi các thay đổi chưa được lưu, dừng hoạt hình,
+và những công việc tốn CPU khác.
